@@ -1,17 +1,27 @@
 ## Setup
 
-pip install virtualenv
-virtualenv env
-source env/bin/activate
+### EC2 instance
+`type = g4dn.xlarge`
 
-pip install -r requirements.txt
+### Login and setup
 
-sudo apt update && sudo apt install ffmpeg
+### Install CUDA
 
-jupyter notebook
+https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Debian&target_version=11&target_type=deb_network
+
+### Run the following
+`pip install virtualenv`
+
+`virtualenv env`
+
+`source env/bin/activate`
+
+`pip install -r requirements.txt`
+
+`sudo apt update && sudo apt install ffmpeg`
+
+`jupyter notebook`
 
 ### Then open in chrome
 
 http://localhost:8888/
-
-### 
