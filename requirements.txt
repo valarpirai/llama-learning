@@ -8,4 +8,4 @@ torchaudio
 openai-whisper
 pytube
 openai
-
+gradio

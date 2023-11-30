@@ -1,12 +1,9 @@
 .ipynb_checkpoints/
 
 .env
-<<<<<<< HEAD
 flagged/
 models/
 audios/
-=======
 
 *.mp4
 *.mp3
->>>>>>> 3fc9643bf628cf34073b31d2647c6fcbea767d9e
