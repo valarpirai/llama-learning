@@ -2,7 +2,6 @@
 
 .env
 flagged/
-models/
 audios/
 
 *.mp4
