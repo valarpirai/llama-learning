@@ -1,4 +1,5 @@
 .ipynb_checkpoints/
+gradio_cached_examples/
 
 .env
 flagged/
