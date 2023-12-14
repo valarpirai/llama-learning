@@ -1,6 +1,9 @@
 .ipynb_checkpoints/
 gradio_cached_examples/
 
+whisper-models/
+llama2.c/
+
 .env
 flagged/
 audios/
