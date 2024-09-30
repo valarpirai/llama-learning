@@ -9,17 +9,14 @@
 
 https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Debian&target_version=11&target_type=deb_network
 
-### Run the following
-`pip install virtualenv`
+## Setup 
+Run the following command to setup
+`./bin/setup.sh`
 
-`virtualenv env`
-
-`source env/bin/activate`
-
-`pip install -r requirements.txt`
-
+Install the following tools in Linux
 `sudo apt update && sudo apt install ffmpeg`
 
+Run the command to start notebook server
 `jupyter notebook`
 
 ### Then open in chrome
