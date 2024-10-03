@@ -14,9 +14,21 @@ Run the following command to setup
 `./bin/setup.sh`
 
 Install the following tools in Linux
+
 `sudo apt update && sudo apt install ffmpeg`
 
+For Mac
+
+`brew install ffmpeg`
+
+Download OpenAI Whisper Models
+
+`./download_whisper_models.sh`
+
 Run the command to start notebook server
+
+`source learning-env/bin/activate`
+
 `jupyter notebook`
 
 ### Then open in chrome

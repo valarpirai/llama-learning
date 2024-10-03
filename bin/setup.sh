@@ -1,7 +1,7 @@
 #!/bin/bash
-pip install virtualenv
+# which pip && pip install virtualenv
+# which pip3 && pip3 install virtualenv
 
-virtualenv env
+python3 -m venv learning-env
 source env/bin/activate
 pip install -r requirements.txt
-
