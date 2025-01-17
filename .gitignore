@@ -11,7 +11,6 @@ audios/
 *.mp4
 *.mp3
 *.pdf
-*.md
 .DS_STORE
 __pycache__/
 
