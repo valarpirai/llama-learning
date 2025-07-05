@@ -45,12 +45,18 @@ Machine learning (ML) is a subset of artificial intelligence where computers lea
 - Prediction/Inference: Using a trained model to make predictions on new, unseen data.
 
 #### Types of Machine Learning
-1. Supervised Learning: The model learns from labeled data (input-output pairs).
+1. **Supervised Learning**: The model learns from labeled data (input-output pairs).
 Example: Predicting house prices (regression) or classifying emails as spam/not spam (classification).
 Common algorithms: Linear regression, logistic regression, neural networks, random forests.
-2. Unsupervised Learning: The model finds patterns in unlabeled data.
+2. **Unsupervised Learning**: The model finds patterns in unlabeled data.
 Example: Grouping customers by behavior (clustering) or reducing data dimensions (e.g., PCA).
 Common algorithms: K-means clustering, hierarchical clustering, autoencoders.
-3. Reinforcement Learning: The model learns by interacting with an environment, maximizing a reward.
+3. **Reinforcement Learning**: The model learns by interacting with an environment, maximizing a reward.
 Example: Training a robot to navigate obstacles or optimizing game strategies.
 Common algorithms: Q-learning, deep Q-networks (DQN).
+
+
+#### Applications
+- **Daily Life**: Spam filters, recommendation systems (Netflix, Amazon), voice assistants.
+- **Industry**: Fraud detection, medical diagnosis, predictive maintenance, autonomous vehicles.
+- **Science**: Drug discovery, climate modeling, genomics.
