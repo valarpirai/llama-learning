@@ -60,3 +60,28 @@ Common algorithms: Q-learning, deep Q-networks (DQN).
 - **Daily Life**: Spam filters, recommendation systems (Netflix, Amazon), voice assistants.
 - **Industry**: Fraud detection, medical diagnosis, predictive maintenance, autonomous vehicles.
 - **Science**: Drug discovery, climate modeling, genomics.
+
+### Supervised Learning (Labeled data, predicts outputs)
+- **Linear Regression**: Predicts continuous values (e.g., house prices) by fitting a line to the data.
+- **Logistic Regression**: Classifies binary outcomes (e.g., spam vs. not spam) using a sigmoid function.
+- **Decision Trees**: Splits data into branches based on feature values for classification or regression.
+- **Random Forest**: Ensemble of decision trees, reduces overfitting by averaging predictions.
+- **Support Vector Machines (SVM)**: Finds a hyperplane to separate classes, effective for high-dimensional data.
+- **Neural Networks**: Layers of interconnected nodes, great for complex tasks like image recognition.
+- **Gradient Boosting (e.g., XGBoost, LightGBM)**: Builds trees sequentially, correcting errors of previous ones; strong for tabular data.
+- 
+### Unsupervised Learning (Unlabeled data, finds patterns)
+- **K-Means Clustering**: Groups data into k clusters based on similarity.
+- **Hierarchical Clustering**: Builds a tree of clusters, useful for nested structures.
+- **Principal Component Analysis (PCA)**: Reduces dimensionality by projecting data onto principal components.
+- **Autoencoders**: Neural networks for dimensionality reduction or anomaly detection.
+  
+### Reinforcement Learning (Learns through rewards)
+- **Q-Learning**: Learns optimal actions by updating a value function based on rewards.
+- **Deep Q-Networks (DQN)**: Combines Q-learning with neural networks for complex environments.
+- **Policy Gradient Methods**: Directly optimizes actions for maximum reward (e.g., in robotics).
+
+### Key Considerations
+- **Choosing an Algorithm**: Depends on data size, feature types, task (classification, regression, clustering), and interpretability needs. For small datasets, simpler models like logistic regression or decision trees work well. For large, complex data, try neural networks or gradient boosting.
+- **Evaluation Metrics**: Accuracy, precision, recall, F1-score (classification); RMSE, MAE (regression); silhouette score (clustering).
+- **Tools**: Python libraries like scikit-learn, TensorFlow, PyTorch, or XGBoost are widely used.
